@@ -9,7 +9,7 @@
   "scripts": {
     "start": "parcel index.html --open",
     "build": "parcel build index.html",
-    "test": "jest"
+    "test": "jest" 
   },
   "dependencies": {
     "babel-jest": "^27.0.6",
