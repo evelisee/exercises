@@ -9,7 +9,7 @@
 <!-- PROJECT LOGO -->
 <br />
 <p align="center">
-  <h3 align="center">Exercícios para treino</h3>
+  <h3 align="center">Exercises for training</h3>
 
   <p align="center">
     Project with the objective of training in several skills without the scope of an attached project. If you, like me, like to practice some of these skills, clone the repository and train :)    <br />
