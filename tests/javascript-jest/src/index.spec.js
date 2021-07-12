@@ -37,11 +37,4 @@ describe("isValidNumber", () => {
       expect(isValidNumber(1)).toBe(true);
     });
   });
-  describe("When pass a string", () => {
-    it("should throw error", () => {
-      expect(isValidNumber("sadas")).toThrow(
-        new Error("Is not a valid number")
-      );
-    });
-  });
 });
