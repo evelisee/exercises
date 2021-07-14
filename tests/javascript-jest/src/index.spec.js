@@ -1,4 +1,4 @@
-import { hello, pingPong, isValidNumber } from "./index";
+import { hello, pingPong, isValidNumber, INVALID_NUMBER_MESSAGE } from "./index";
 
 // Dica: https://jestjs.io/docs/en/expect
 
@@ -39,8 +39,8 @@ describe("isValidNumber", () => {
   });
   describe("When pass a string", () => {
     it("should throw error", () => {
-      expect(isValidNumber("sadas")).toThrow(
-        new Error("Is not a valid number")
+      expect(() => isValidNumber("notANumber")).toThrow(
+        new Error(INVALID_NUMBER_MESSAGE)
       );
     });
   });

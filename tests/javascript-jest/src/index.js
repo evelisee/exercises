@@ -1,5 +1,7 @@
 export const hello = () => "hello";
 
+export const INVALID_NUMBER_MESSAGE = "Is not a valid number";
+
 export const pingPong = (value) => {
   const multipleOfTwo = value % 2 === 0;
   const multipleOfThree = value % 3 === 0;
@@ -19,7 +21,7 @@ export const isValidNumber = (value) => {
   if (typeof value === "number") {
     return true;
   }
-  throw Error("Is not a valid number");
+  throw Error(INVALID_NUMBER_MESSAGE);
 };
 
 export const makeMeAPromise = (value) => {
